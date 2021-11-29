@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"/>
+    <EditText
+        android:id="@+id/Name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_background"
+        android:hint="Name"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_background"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_background"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"/>
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logIn"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_background"/>
+
+
+</LinearLayout>
